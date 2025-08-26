@@ -7,7 +7,7 @@ export class Libro extends Material {
     constructor(id: string, titulo: string, autor: string, paginas: number, genero?: string) {
         super(id, titulo, autor);
         this.paginas = paginas;
-        this.genero = genero ;
+        this.genero = genero;
     }
         // Implementación polimórfica del método mostrarInfo
     mostrarInfo(): string {
